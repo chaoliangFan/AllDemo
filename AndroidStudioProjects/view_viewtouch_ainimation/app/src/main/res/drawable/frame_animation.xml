@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/desert02"
+        android:duration="150"/>
+    <item android:drawable="@drawable/hydrangeas03"
+        android:duration="150"/>
+    <item android:drawable="@drawable/jellyfish04"
+        android:duration="150"/>
+    <item android:drawable="@drawable/koala05"
+        android:duration="150"/>
+    <item android:drawable="@drawable/lighthouse06"
+        android:duration="150"/>
+    <item android:drawable="@drawable/penguins07"
+        android:duration="150"/>
+    <item android:drawable="@drawable/tulips08"
+        android:duration="150"/>
+</animation-list>

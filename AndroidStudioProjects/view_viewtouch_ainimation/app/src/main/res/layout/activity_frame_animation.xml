@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/frame_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/frame_animation_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="frameAnimation" />
+
+            <Button
+                android:id="@+id/twwen_animation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="补间动画alphaAnimation" />
+
+            <Button
+                android:id="@+id/animation_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="动画叠加AnimationSet" />
+
+            <Button
+                android:id="@+id/rotate_animation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="补间动画RotateAnimation" />
+
+            <Button
+                android:id="@+id/translate_animation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="补间动画TranslateAnimation" />
+
+            <Button
+                android:id="@+id/scale_animation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="补间动画ScaleAnimation" />
+
+            <Button
+                android:id="@+id/object_animator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="属性动画ObjectAnimator"/>
+
+            <Button
+                android:id="@+id/property_values_holder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="属性动画PropertyValuesHolder"/>
+
+            <Button
+                android:id="@+id/value_animator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="属性动画valueAnimator"/>
+
+            <Button
+                android:id="@+id/animator_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="属性动画ANIMATORSET"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

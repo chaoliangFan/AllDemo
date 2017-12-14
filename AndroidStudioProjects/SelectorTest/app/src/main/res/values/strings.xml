@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SelectorTest</string>
+
+    <string name="text">点击</string>
+
+
+    <drawable name="clr_normal">#0e5ae9</drawable>
+    <drawable name="clr_pressed">#04f110</drawable>
+
+
+    <drawable name="pic1">#fff</drawable>
+    <drawable name="pic2">#ed0a0a</drawable>
+    <drawable name="pic3">#efeb06</drawable>
+    <drawable name="pic4">#d907f1</drawable>
+    <drawable name="pic5">#0b07e1</drawable>
+
+
+</resources>

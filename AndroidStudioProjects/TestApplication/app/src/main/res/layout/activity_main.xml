@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#2fea16">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/about_img_logo_mdpi"/>
+
+        <!--
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/logo"
+            android:background="#ea0f0f">
+            -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/logo"
+                android:text="半分"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/logo"
+                android:layout_marginTop="40dp"
+                android:text="账号234"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/logo"
+            android:lines="1"
+            android:ellipsize="end"
+            android:layout_marginTop="60dp"
+            android:text="账号234kadshfksahfkhsakfhjhfakashf空间
+            发了狂的时间风力可达撒娇分开就打了客服就撒开订了房间打
+            扫客房经理看大家法轮大法都是附近的撒范大家福利大家福利
+            大家发类似的就飞拉萨见风加上六块腹肌轮廓大姐夫拉开就翻
+            来看大家发来看大家发开发商就会发觉撒的回复可见撒的回复
+            可见撒的回复可见撒到后方可接待沙发客接待沙发"/>
+
+        <!--
+        </LinearLayout>
+        -->
+    </RelativeLayout>
+
+</LinearLayout>

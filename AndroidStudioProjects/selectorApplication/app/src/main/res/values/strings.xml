@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">selectorApplication</string>
+
+    <string name="linearlayout1">点击效果1</string>
+    <string name="linearlayout2">点击效果2</string>
+    <string name="linearlayout3">点击效果3</string>
+</resources>
